@@ -7,21 +7,12 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      avatars: [
-        {
-          name: 'Uditha Ishan',
-          key: 'a1'
-        },
-        {
-          name: 'Ishara Wijekoon',
-          key: 'a2'
-        },
-        {
-          name: 'xxx',
-          key: 'a3'
-        }
-      ]
+      avatars: []
     }
+  }
+
+  componentDidMount() {
+    fetch('https://jsonplaceholder.typicode.com/users').then((response) => response.json()).then((avatar) => this.setState({avatars: avatar}))
   }
 
   render() {
@@ -29,7 +20,7 @@ class App extends Component {
     <div className="App">
       {
         this.state.avatars.map((avatar) => (
-        <h1>{avatar.name}</h1>
+        <h1 key={avatar.key}>{avatar.name}</h1>
         ))
       }
     </div>
