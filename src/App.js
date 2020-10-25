@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
+import {CardList} from './components/card-list/card-list.component';
 import './App.css';
 
 class App extends Component {
@@ -18,11 +19,9 @@ class App extends Component {
   render() {
   return(
     <div className="App">
-      {
-        this.state.avatars.map((avatar) => (
-        <h1 key={avatar.key}>{avatar.name}</h1>
-        ))
-      }
+      <CardList avatars={this.state.avatars}>
+        
+      </CardList>
     </div>
   );
 }
