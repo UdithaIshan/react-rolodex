@@ -7,20 +7,31 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      string: 'Hello Uditha'
+      avatars: [
+        {
+          name: 'Uditha Ishan',
+          key: 'a1'
+        },
+        {
+          name: 'Ishara Wijekoon',
+          key: 'a2'
+        },
+        {
+          name: 'xxx',
+          key: 'a3'
+        }
+      ]
     }
   }
 
   render() {
   return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-           {this.state.string} !
-        </p>
-        <button onClick={()=> {this.setState({string: 'ආයුබෝවන්'})}}>Touch me</button>
-      </header>
+      {
+        this.state.avatars.map((avatar) => (
+        <h1>{avatar.name}</h1>
+        ))
+      }
     </div>
   );
 }
