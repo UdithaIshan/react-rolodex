@@ -7,7 +7,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      avatars: []
+      avatars: [],
+      searchKey: ''
     }
   }
 
@@ -16,10 +17,17 @@ class App extends Component {
   }
 
   render() {
+    const {avatars, searchKey} = this.state;
+    const filterdAvatars = avatars.filter(avatar => avatar.name.toLowerCase().includes(searchKey.toLowerCase()));
+    // const filterdAvatars = this.state.avatars.filter(avatar => avatar.name.toLowerCase().includes(this.state.searchKey.toLowerCase()));
+
+
   return(
     <div className="App">
-      <input type="search" placeholder="Search" />
-      <CardList avatars={this.state.avatars}/>
+      <input type="search" placeholder="Search" onChange={(e) => {
+        this.setState({searchKey:e.target.value})
+      }}/>
+      <CardList avatars={filterdAvatars}/>
     </div>
   );
 }
