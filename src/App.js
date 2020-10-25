@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/users').then((response) => response.json()).then((avatar) => this.setState({avatars: avatar}))
+    fetch('https://jsonplaceholder.typicode.com/users').then((response) => response.json()).then((avatar) => this.setState({avatars: avatar}));
   }
 
   render() {
@@ -25,6 +25,7 @@ class App extends Component {
 
   return(
     <div className="App">
+      <h1>Rolodox</h1>  
       <SearchBox placeholder="Search" handleChange={(e) => {this.setState({searchKey:e.target.value})}}/>
       <CardList avatars={filterdAvatars}/>
     </div>
