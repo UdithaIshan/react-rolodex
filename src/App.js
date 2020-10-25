@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import {CardList} from './components/card-list/card-list.component';
 import './App.css';
 
@@ -19,9 +18,8 @@ class App extends Component {
   render() {
   return(
     <div className="App">
-      <CardList avatars={this.state.avatars}>
-        
-      </CardList>
+      <input type="search" placeholder="Search" />
+      <CardList avatars={this.state.avatars}/>
     </div>
   );
 }
