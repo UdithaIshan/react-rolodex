@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/udithaishan.github.io/react-rolodex/static/css/main.62c736b5.chunk.css",
-    "main.js": "/udithaishan.github.io/react-rolodex/static/js/main.d70badf4.chunk.js",
-    "main.js.map": "/udithaishan.github.io/react-rolodex/static/js/main.d70badf4.chunk.js.map",
-    "runtime-main.js": "/udithaishan.github.io/react-rolodex/static/js/runtime-main.30565153.js",
-    "runtime-main.js.map": "/udithaishan.github.io/react-rolodex/static/js/runtime-main.30565153.js.map",
-    "static/js/2.d3a08ced.chunk.js": "/udithaishan.github.io/react-rolodex/static/js/2.d3a08ced.chunk.js",
-    "static/js/2.d3a08ced.chunk.js.map": "/udithaishan.github.io/react-rolodex/static/js/2.d3a08ced.chunk.js.map",
-    "index.html": "/udithaishan.github.io/react-rolodex/index.html",
-    "precache-manifest.38c026f200f62f919d7d5bd64660ec4a.js": "/udithaishan.github.io/react-rolodex/precache-manifest.38c026f200f62f919d7d5bd64660ec4a.js",
-    "service-worker.js": "/udithaishan.github.io/react-rolodex/service-worker.js",
-    "static/css/main.62c736b5.chunk.css.map": "/udithaishan.github.io/react-rolodex/static/css/main.62c736b5.chunk.css.map",
-    "static/js/2.d3a08ced.chunk.js.LICENSE.txt": "/udithaishan.github.io/react-rolodex/static/js/2.d3a08ced.chunk.js.LICENSE.txt"
+    "main.css": "/react-rolodex/static/css/main.62c736b5.chunk.css",
+    "main.js": "/react-rolodex/static/js/main.cb85a9a1.chunk.js",
+    "main.js.map": "/react-rolodex/static/js/main.cb85a9a1.chunk.js.map",
+    "runtime-main.js": "/react-rolodex/static/js/runtime-main.2b9fea35.js",
+    "runtime-main.js.map": "/react-rolodex/static/js/runtime-main.2b9fea35.js.map",
+    "static/js/2.d3a08ced.chunk.js": "/react-rolodex/static/js/2.d3a08ced.chunk.js",
+    "static/js/2.d3a08ced.chunk.js.map": "/react-rolodex/static/js/2.d3a08ced.chunk.js.map",
+    "index.html": "/react-rolodex/index.html",
+    "precache-manifest.bdec5395b4d637b8cdee55eb2981cdc1.js": "/react-rolodex/precache-manifest.bdec5395b4d637b8cdee55eb2981cdc1.js",
+    "service-worker.js": "/react-rolodex/service-worker.js",
+    "static/css/main.62c736b5.chunk.css.map": "/react-rolodex/static/css/main.62c736b5.chunk.css.map",
+    "static/js/2.d3a08ced.chunk.js.LICENSE.txt": "/react-rolodex/static/js/2.d3a08ced.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.30565153.js",
+    "static/js/runtime-main.2b9fea35.js",
     "static/js/2.d3a08ced.chunk.js",
     "static/css/main.62c736b5.chunk.css",
-    "static/js/main.d70badf4.chunk.js"
+    "static/js/main.cb85a9a1.chunk.js"
   ]
 }
