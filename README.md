@@ -1,3 +1,6 @@
+### `Live Preview`
+[Here](https://udithaishan.github.io/react-rolodex/)
+
 Run the project using:
 
 ### `npm start`
